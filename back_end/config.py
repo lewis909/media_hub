@@ -21,10 +21,10 @@ transcode_logs = os.path.join('F:\\Transcoder\\logs\\transcode_logs\\')
 
 
 # Database Connections
-host = 'localhost'
-user = 'lewis_transcode'
-password = 'tool4602'
-database = 'media_hub'
+host = 'hostname'
+user = 'username'
+password = 'password'
+database = 'datbasename'
 
 # Connection 1
 dbc1 = mariadb.connect(host=host,

@@ -1,6 +1,6 @@
 <?php
 
-$db = new PDO('mysql:host=localhost;dbname=media_hub', 'lewis_transcode', 'tool4602');
+$db = new PDO('mysql:host=localhost;dbname=databasename', 'username', 'password');
 
 ?>
 

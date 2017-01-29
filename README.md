@@ -1,2 +1,2 @@
-Media Hub is a Video file transcoding workflow system which is controlled by a browser based GUI.
-Please see the wiki for more information
+Media Hub is a workflow system for creating Video On Demand packages ready for delivery to clients.
+Please see the wiki for more information.

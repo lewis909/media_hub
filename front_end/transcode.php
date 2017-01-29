@@ -164,8 +164,8 @@ if(isset($_POST['submit'])) {
 
             // If File and metadate are present create core_xml.xml
 
-
-            $con = mysqli_connect('localhost', 'lewis_transcode', 'tool4602');
+            // Add database connection details here to pull data for creating core_xml.
+            $con = mysqli_connect('localhost', 'username', 'password');
             $db_select = mysqli_select_db($con, 'media_hub');
 
 

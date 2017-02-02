@@ -238,6 +238,13 @@ function create_xml($m_name,$w_name,$lu_name,$s_name,$e_name,$dbc,$con){
                 $trg_path = $xml->createElement("target_path", $row['target_path']);
                 $file_info->appendChild($trg_path);
 
+                $video_file_naming_convention=$xml->createElement("video_file_naming_convention",$row['video_file_naming_convention']);
+                $file_info->appendChild($video_file_naming_convention);
+                $image_file_naming_convention=$xml->createElement("image_file_naming_convention",$row['image_file_naming_convention']);
+                $file_info->appendChild($image_file_naming_convention);
+                $package_naming_convention=$xml->createElement("package_naming_convention",$row['package_naming_convention']);
+                $file_info->appendChild($package_naming_convention);
+
 
                 mysqli_close($con);
 
